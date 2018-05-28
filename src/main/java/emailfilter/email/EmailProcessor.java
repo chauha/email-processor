@@ -47,8 +47,6 @@ public class EmailProcessor {
 		emailFolder.open(Folder.READ_ONLY);
 
 		Message[] messages = emailFolder.search(new FlagTerm(new Flags(Flags.Flag.RECENT), false));
-		System.out.println("email-count" + emailFolder.getMessageCount());
-		System.out.println("messages.length---" + messages.length);
 
 		for (int index = messages.length - 1, n = messages.length - 1; index >= n; index--) {
 			Message message = messages[index];
