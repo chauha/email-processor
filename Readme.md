@@ -4,7 +4,7 @@ By design it only reads the latest email in your inbox and searches for relevant
 
 ##### How to run or build.
 Buid : `mvn clean compile assembly:single`  
-Launch this app : `bash email_process.sh` or alternatively `java -jar . Il-0.0.1-SNAPSHOT-jar-with-dependencies.jar` from root dir.
+Launch this app : `bash email_process.sh` or alternatively `java -jar email-0.0.1-SNAPSHOT-jar-with-dependencies.jar` from root dir.
  It will ask gmail account and password of account you want to monitor.
 
 
