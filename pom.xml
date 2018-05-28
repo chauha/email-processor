@@ -52,7 +52,7 @@
           <manifest>
             <addClasspath>true</addClasspath>
             <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>com.emailfilter.email.EmailProcessorMain</mainClass>
+            <mainClass>emailfilter.email.EmailProcessorMain</mainClass>
           </manifest>
         </archive>
       </configuration>
